@@ -6,6 +6,7 @@
 <P>
     <?php
     echo "Hello World";
+    echo "<br />\n";
 $myage=28;
 if ($myage >=21){
     echo "You can buy specs,mugs, and sausage rolls";
@@ -18,7 +19,17 @@ elseif ($myage >=16) {
   }
 else {
    echo "You can`t buy anything";
-  }    ?>
+  }
+
+
+
+
+
+
+
+
+
+    ?>
 </P>
 </body>
 </html>
