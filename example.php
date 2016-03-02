@@ -20,6 +20,11 @@ elseif ($myage >=16) {
 else {
    echo "You can`t buy anything";
   }
+    echo "<br />\n";
+    $myArray = array("do", "re", "mi");
+    $echo $myArray [0]
+    $myArray[1] ="la";
+    unset ($myArray[2]);
 
 
 
