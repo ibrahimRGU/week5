@@ -1,4 +1,4 @@
-<?php
+
 /**
  * Created by PhpStorm.
  * User: 1516312
@@ -17,4 +17,3 @@
 </body>
 </html>
 
-?>
