@@ -6,5 +6,5 @@
  * Time: 16:18
  */
 
-include("connection.php"); //Establishing connection with our database
+include("connection.php"); //Establishing connection with our database*//
 ?>
