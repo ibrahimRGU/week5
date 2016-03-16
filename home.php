@@ -1,10 +1,5 @@
 
-/**
- * Created by PhpStorm.
- * User: 1516312
- * Date: 02/03/2016
- * Time: 16:40
- */
+
 <html>
 <head>
     <meta charset="utf-8">
