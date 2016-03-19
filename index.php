@@ -1,44 +1,36 @@
 <?php
-	session_start();
-	include("connection.php"); //Establishing connection with our database
-	
-	$error = ""; //Variable for storing our errors.
-	if(isset($_POST["submit"]))
+	include('login.php'); // Include Login Script
+
+	if ((isset($_SESSION['username']) != '')) 
 	{
-		if(empty($_POST["username"]) || empty($_POST["password"]))
-		{
-			$error = "Both fields are required.";
-		}else
-		{
-			// Define $username and $password
-			$username=$_POST['username'];
-			$password=$_POST['password'];
-
-			// To protect from MySQL injection
-			$username = stripslashes($username);
-			$password = stripslashes($password);
-			$username = mysqli_real_escape_string($db, $username);
-			$password = mysqli_real_escape_string($db, $password);
-			$password = md5($password);
-			
-			//Check username and password from database
-			$sql="SELECT userID FROM users WHERE username='$username' and password='$password'";
-			$result=mysqli_query($db,$sql);
-			$row=mysqli_fetch_array($result,MYSQLI_ASSOC) ;
-			
-			//If username and password exist in our database then create a session.
-			//Otherwise echo error.
-			
-			if(mysqli_num_rows($result) == 1)
-			{
-				$_SESSION['username'] = $username; // Initializing Session
-				header("location: home.php"); // Redirecting To Other Page
-			}else
-			{
-				$error = "Incorrect username or password.";
-			}
-
-		}
-	}
-
+		header('Location: home.php');
+	}	
 ?>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Who cares been an ethical hacker my site is not even secured </title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+<div align="center">
+<h1 style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; font-size:32px;">PHP Login Form with Session</h1>
+<div class="loginBox">
+    <h3>Login Form</h3>
+    <br><br>
+    <form method="post" action="">
+        <label>Username:</label><br>
+        <input type="text" name="username" placeholder="username" /><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="password" />  <br><br>
+        <input type="submit" name="submit" value="Login" /> 
+    </form>
+    <div class="error"><?php echo $error;?></div>
+</div>
+</div>
+<div> IM watching you ,Put off your WEBCAM !!!</div>
+</body>
+</html>
