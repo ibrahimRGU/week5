@@ -42,7 +42,7 @@ fieldset legend
 }
 #footer {
     color: #CCC;
-    float:center;
+    text-align:center;
 background:Red;
 width:500px;	
 }
