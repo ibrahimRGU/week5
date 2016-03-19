@@ -31,6 +31,6 @@
     <div class="error"><?php echo $error;?></div>
 </div>
 </div>
-<div> IM watching you ,Put off your WEBCAM !!!</div>
+<div id="footer"> IM watching you ,Put off your WEBCAM !!!</div>
 </body>
 </html>
