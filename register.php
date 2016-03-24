@@ -49,6 +49,16 @@
 					</td>
 				</tr>
 				<tr>
+					<td height="23" style="font-weight: bold">
+							<div align="right">
+								<label for="Phone">Phone</label>
+							</div>
+					</td>
+					<td>
+							<input type="tel" name="usrtel" class="input" placeholder="Enter a valid phone number" pattern="[0-9]{10}"  size="25" re quired />
+					</td>
+				</tr>
+				<tr>
 					<td height="23"></td>
 					<td>
 						<div align="right">
