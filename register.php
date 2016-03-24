@@ -55,7 +55,7 @@
 							</div>
 					</td>
 					<td>
-							<input type="tel" name="usrtel" class="input" placeholder="Enter a valid phone number"  size="25"  />
+						<input type="tel" name="usrtel">
 					</td>
 				</tr>
 				<tr>
