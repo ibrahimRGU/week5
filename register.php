@@ -16,7 +16,7 @@
 	<form method="post" action="">
 		<fieldset>
 		<legend>Registration Form</legend>
-			<table width="relative" border="0" cellpadding="10" cellspacing="10">
+			<table width="300" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td colspan="2" align="center" class="error"><?php echo $msg;?></td>
 				</tr>
