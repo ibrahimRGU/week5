@@ -35,7 +35,7 @@
 							</div>
 					</td>
 					<td>
-							<input name="email" type="email" class="input" size="25" required />
+							<input name="email" type="email" class="input" placeholder="Enter your Email" size="25" required />
 					</td>
 				</tr>
 				<tr>
@@ -45,7 +45,7 @@
 							</div>
 					</td>
 					<td>
-							<input name="password" type="password" class="input" size="25" required />
+							<input name="password" type="password" class="input" placeholder="Enter a password" size="25" required />
 					</td>
 				</tr>
 				<tr>
@@ -55,7 +55,7 @@
 							</div>
 					</td>
 					<td>
-							<input type="tel" name="usrtel" class="input" placeholder="Enter a valid phone number" pattern="[0-9]{10}"  size="11" required />
+							<input type="tel" name="usrtel" class="input" placeholder="Enter a valid phone number" pattern="[0-9]{10}"  size="25" required />
 					</td>
 				</tr>
 				<tr>
