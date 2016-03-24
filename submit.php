@@ -5,6 +5,7 @@ if(isset($_POST["submit"]))
     $name = $_POST["name"];
     $email = $_POST["email"];
     $password = $_POST["password"];
+    $phone = $_POST["phone"];
 
     $name = mysqli_real_escape_string($db, $name);
     $email = mysqli_real_escape_string($db, $email);
