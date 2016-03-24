@@ -55,7 +55,7 @@
 							</div>
 					</td>
 					<td>
-							<input type="tel" name="usrtel" class="input" placeholder="Enter a valid phone number" pattern="[0-9]{10}"  size="25" re quired />
+							<input type="tel" name="usrtel" class="input" placeholder="Enter a valid phone number" pattern="[0-9]{10}"  size="11" required />
 					</td>
 				</tr>
 				<tr>
