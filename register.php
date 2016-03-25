@@ -16,7 +16,7 @@
 	<form method="post" action="">
 		<fieldset>
 		<legend>Registration Form</legend>
-			<table width="300" border="0" cellpadding="10" cellspacing="10">
+			<table width="400" border="0" cellpadding="10" cellspacing="10">
 				<tr>
 					<td colspan="2" align="center" class="error"><?php echo $msg;?></td>
 				</tr>
@@ -35,7 +35,7 @@
 							</div>
 					</td>
 					<td>
-							<input name="email" type="email" class="input" placeholder="Enter your Email" size="25" required />
+							<input name="email" type="email" class="input" size="25" required />
 					</td>
 				</tr>
 				<tr>
@@ -45,17 +45,7 @@
 							</div>
 					</td>
 					<td>
-							<input name="password" type="password" class="input" placeholder="Enter a password" size="25" required />
-					</td>
-				</tr>
-				<tr>
-					<td height="23" style="font-weight: bold">
-							<div align="right">
-								<label for="Phone">Phone</label>
-							</div>
-					</td>
-					<td>
-						<input type="tel" name="phone">
+							<input name="password" type="password" class="input" size="25" required />
 					</td>
 				</tr>
 				<tr>
