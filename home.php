@@ -9,7 +9,7 @@
 <title>Home</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<a href="comments.php" style="font-size:18px">comment</a>
+</div><a href="viewbug.php" style="font-size:18px">comment</a> </div>
 <body>
 <h1 class="hello">Hello, <em><?php echo $login_user;?>!</em></h1>
 <br><br><br>
