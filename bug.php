@@ -14,7 +14,7 @@
 
 <body>
 
-<a href="comments.php">Home</a>
+<a href="home.php">Home</a>
 <div align="center">
 
 
