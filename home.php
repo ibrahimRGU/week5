@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 </div id="commentlink"><a href="comments.php" style="font-size:18px">comment</a> </div>
+<a href="bug.php">Post a bug</a>
 <body>
 <h1 class="hello">Hello, <em><?php echo $login_user;?>!</em></h1>
 <br><br><br>
