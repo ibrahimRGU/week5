@@ -32,8 +32,6 @@
 		<div class="menu_container">
 		<div class="menu">
           <li><a href="index.php">index</a></li>
-          <li><a href="ViewBugs.php">View Bugs</a></li>
-          <li><a href="Testimonials.php">Testimonials</a></li>
           <li><a href="Contact.html">Contact Us</a></li>
           
       </div><!--close menubar-->
