@@ -15,7 +15,7 @@
 	    <title>Course Work</title>
 		<meta charset="UTF-8">
 	</head>
-   	<link href="style1.css" rel="stylesheet" type="text/css" />
+   	<link href="style.css" rel="stylesheet" type="text/css" />
   <body>
   <div class="main_container"> 
 	   <div class="welcome_container"> 
