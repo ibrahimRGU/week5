@@ -15,7 +15,7 @@
 	    <title>Course Work</title>
 		<meta charset="UTF-8">
 	</head>
-   	<link href="style.css" rel="stylesheet" type="text/css" />
+   	<link href="style1.css" rel="stylesheet" type="text/css" />
   <body>
   <div class="main_container"> 
 	   <div class="welcome_container"> 
@@ -34,7 +34,6 @@
           <li><a href="index.php">index</a></li>
           <li><a href="ViewBugs.php">View Bugs</a></li>
           <li><a href="Testimonials.php">Testimonials</a></li>
-          <li><a href="Other Projects.php">Projects</a></li>
           <li><a href="Contact.html">Contact Us</a></li>
           
       </div><!--close menubar-->
@@ -64,16 +63,19 @@
 </div>
 		</div>
 	<div class="sidebar"> 
-		<p><i>Our Social Links</i></p>
-		<p>Facebook</p>
-		<p>Twitter</p>
-		<p>Google+</p>
-		
+		<p><i>Usefull links</i></p>
+		<p>HTML</p>
+		<p>CSS</p>
+		<p>PHP</p>
+		<p>MySQL</p>	
 	</div>
+	</div> 
 	
 	<div class="footer">
 	<div footer="footer_content">
-		<p>This Site Is Designed And Managed by IB </P>
+		<footer>
+<address>&copy; Copyright 2016 All Rights Reserved east3.azurewebsites.net </address>
+</footer>
 	</div>
 	</div>
 	
