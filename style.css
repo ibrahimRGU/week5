@@ -2,7 +2,7 @@
 body{
 background:url(images/background.png);
 }
-.main_container{ 
+.header{ 
   width:960px;
   background: transparent;
   text-align:center;
@@ -73,7 +73,6 @@ height:960px;
 background-color:silver;
 }
 .footer{
-float:clear;
 width: 960px;
 height:90px;
 background-color:grey;
