@@ -7,17 +7,17 @@
  
 
 	<head>
-	    <title>Course Work</title>
-		<meta charset="UTF-8">
+	        <title>Course Work</title>
+          	<meta charset="UTF-8">
 	</head>
    	<link href="style.css" rel="stylesheet" type="text/css" />
   <body>
   <div class="main_container"> 
 	   <div class="welcome_container"> 
-	   <div class="welcome">
-	      <h1>Bug Tracking Site</h1>
-		  </div>  <!--close welcome-->
-		  </div>
+	         <div class="welcome">
+	              <h1>Bug Tracking Site</h1>
+		 </div>  <!--close welcome-->
+           </div>
 		<div class="slogan_container"> 
 	       <div class="welcome_slogan">   
 	      <h4>WE FIX BUGS</h4>
@@ -39,7 +39,6 @@
 		
 		<div class="textarea1"> 
 		<div align="center">
-	<div class="conts">
 <h1 class="hello">View Bug</h1>
 <?php
 	include("connection.php");
@@ -65,14 +64,9 @@
 				echo  "<h1 class='hello'>No Bug Found</h1>";
 			}
 			
-			
-			
 
 
 ?>
-
-
-</div>
 <br><br><br>
 	
 		</div>
