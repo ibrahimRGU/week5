@@ -9,10 +9,11 @@
 	<head>
 	        <title>Course Work</title>
           	<meta charset="UTF-8">
+	        <link href="style.css" rel="stylesheet" type="text/css" />
 	</head>
-   	<link href="style.css" rel="stylesheet" type="text/css" />
+   	
   <body>
-  <div class="main_container"> 
+        <div class="main_container"> 
 	   <div class="welcome_container"> 
 	         <div class="welcome">
 	              <h1>Bug Tracking Site</h1>
@@ -29,17 +30,12 @@
           <li><a href="index.php">About US</a></li>
           <li><a href="Contact.html">Contact Us</a></li>
          <li><a href="logout.php" style="font-size:18px">Logout?</a></li>
-      </div><!--close menubar-->
-	  </div><!--close menubar_container-->
-		
-	  </div><!--Main_container-->
-	 
-		
-	<div class="new">
-		
+                </div><!--close menubar-->
+	          </div><!--close menubar_container-->
+        </div><!--Main_container-->
 		<div class="textarea1"> 
 		<div align="center">
-<h1 class="hello">View Bug</h1>
+		<h1 class="hello">View Bug</h1>
 <?php
 	include("connection.php");
 	
@@ -71,13 +67,13 @@
 	
 		</div>
 		</div>
-	<div class="sidebar"> 
-		<p><i>Usefull links</i></p>
-		<p>HTML</p>
-		<p>CSS</p>
-		<p>PHP</p>
-		<p>MySQL</p>	
-	</div>
+		<div class="sidebar"> 
+			<p><i>Usefull links</i></p>
+			<p>HTML</p>
+			<p>CSS</p>
+			<p>PHP</p>
+			<p>MySQL</p>	
+		</div>
 	</div> 
 	
 	<div class="footer">
