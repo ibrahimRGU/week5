@@ -31,7 +31,7 @@
 		</div>
 		<div class="menu_container">
 		<div class="menu">
-          <li><a href="index.php">index</a></li>
+          <li><a href="index.php">About US</a></li>
           <li><a href="Contact.html">Contact Us</a></li>
           
       </div><!--close menubar-->
@@ -46,7 +46,7 @@
 		<div align="center">
 	
 	<div class="loginBox">
-			<h3>Login Form</h3>
+			<h3>Pleas Login Here</h3>
 			<br><br>
 		<form method="post" action="">
 			<label>Username:</label><br>
