@@ -392,3 +392,90 @@ textarea{
 	font-size:13px;
 	 
 }
+@charset "UTF-8";
+body{
+background:url(images/background.png);
+}
+.main_container{ 
+  width:960px;
+  background: transparent;
+  text-align:center;
+  margin:-21px auto 0;
+  color:silver;
+ }
+ .welcome_container{
+ width:960px;
+ height:65px;
+ margin:0 auto 0;
+ background:grey;
+ border-bottom:2px solid #000;
+ }
+ .slogan_container{
+ width:960px;
+ height:25px;
+ margin:0 auto 0;
+ background:grey ;
+ border-bottom:1px solid #000;
+ }
+ 
+.welcome_slogan{
+width: 960px;
+  height: 40px;
+  text-align:center; 
+  margin: 0px;
+  background:tansparent;
+  margin:-22px auto 0; 
+}
+a{
+color:gold;
+}
+li{
+display:inline;
+list-style:horizontal;
+padding-left:50px;
+ padding-right:50px;
+}
+.menu_container{
+ width:960px;
+ height:45px;
+ color:gold;
+ background:grey;
+ float:left; 
+border-bottom:1px solid #000; 
+}
+.new {
+height:900px;
+width:960px;
+background:white;
+color:purple;
+margin:0px auto 0px;
+text-align:left; 
+
+}
+.textarea1{
+float:left;
+width:748px;
+height:960px;
+margin:0px 0 0 0px;
+background-color:silver;
+border-right:2px solid #000;
+}
+.sidebar{
+float:left;
+width:210px;
+height:960px;
+background-color:silver;
+}
+.footer{
+float:center;
+width: 960px;
+height:90px;
+background-color:grey;
+margin:0px auto 0px;
+margin:80px auto 0px;
+border-top:2px solid #000; 
+text-align:center; 
+}
+
+p,i{text-align:center;
+}
