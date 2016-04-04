@@ -27,20 +27,20 @@
 			
 			  $title = trim($_POST["title"]);
 			  
-			  $des = trim($_POST["des"]);
+			  $desc = trim($_POST["desc"]);
 			
 			if($title  == ""){
 				
 				echo "<div class='error'> Enter Bug Title</div>";
 				
 				 
-			}else if($des  == ""){
+			}else if($desc  == ""){
 				
 				echo "<div class='error'> Bug Description</div>";
 				
 			}else{
 				include("connection.php");
-				$sql = mysqli_query($db,"INSERT INTO `bugs`( `title`, `desc`, `postDate`, `fixDate`, `fixed`, `userID`) VALUES ('$title','$des',NOW(),NOW(),'','$login_id')");
+				$sql = mysqli_query($db,"INSERT INTO `bugs`( `title`, `desc`, `postDate`, `fixDate`, `fixed`, `userID`) VALUES ('$title','$desc',NOW(),NOW(),'','$login_id')");
 				
 				if($sql){
 					
@@ -62,7 +62,7 @@
         <label>Title:</label><br>
         <input type="text" name="title" value="<?php if(isset($_POST["title"])){echo $_POST["title"];}?>" placeholder="Bug title" /><br><br>
         <label>Description:</label><br>
-        <textarea name="des" rows="4" placeholder="Bug Description"><?php if(isset($_POST["des"])){echo $_POST["des"];}?></textarea> <br><br>
+        <textarea name="desc" rows="4" placeholder="Bug Description"><?php if(isset($_POST["desc"])){echo $_POST["desc"];}?></textarea> <br><br>
         <input type="submit" name="submit" value="Post Bug" /> 
    
   </form>
