@@ -23,6 +23,7 @@
 				<h4>WE FIX BUGS</h4>
 	        </div><!--close welcome_slogan-->
 			<div id="nav">
+					<li><a href="home.php">Home</a></li>
 					<li><a href="index.php">AboutUS</a></li>
 					<li><a href="Contact.html">ContactUs</a></li>
 					<li><a href="logout.php" style="font-size:18px">Logout?</a></li>
