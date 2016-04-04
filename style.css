@@ -59,7 +59,7 @@ input[type=submit]
 }
 body
 {
-	 
+	height:relative;	 
 	background-color:#D6F5F5;
 }
 .top-bar
