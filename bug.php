@@ -58,7 +58,7 @@
 
 
 ?>
-    <form method="post" action="submit_bug.php">
+    <form method="post" action="bug.php">
         <label>Title:</label><br>
         <input type="text" name="title" value="<?php if(isset($_POST["title"])){echo $_POST["title"];}?>" placeholder="Bug title" /><br><br>
         <label>Description:</label><br>
